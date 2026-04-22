@@ -1,0 +1,25 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100
+    use_sim_time: true
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+    wheel_velocity_controller:
+      type: velocity_controllers/JointGroupVelocityController
+
+joint_state_broadcaster:
+  ros__parameters:
+    use_sim_time: true
+
+wheel_velocity_controller:
+  ros__parameters:
+    use_sim_time: true
+    joints:
+      - wheel_x1_joint
+      - wheel_x2_joint
+      - wheel_x3_joint
+      - wheel_x4_joint
+      - wheel_y1_joint
+      - wheel_y2_joint
+      - wheel_y3_joint
+      - wheel_y4_joint

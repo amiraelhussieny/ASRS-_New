@@ -1,0 +1,309 @@
+<?xml version="1.0" ?>
+<robot name="ros_shuttle" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <link name="base_link">
+    <inertial>
+      <origin xyz="-0.00551645829194561 -0.00526871151779984 0.0285459170341109" rpy="0 0 0" />
+      <mass value="0.51832860194513" />
+      <inertia ixx="0.00024965821249225" ixy="3.9756598630108E-06" ixz="1.42929438098982E-08" iyy="0.000240457817790144" iyz="1.48938078333273E-07" izz="0.00035806272475655" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://my_robot_description/meshes/base_link.STL" />
+      </geometry>
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://my_robot_description/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <gazebo reference="base_link">
+    <material>Gazebo/White</material>
+  </gazebo>
+
+  <link name="wheel_x1">
+    <inertial>
+      <origin xyz="-3.67105643384047E-08 -4.20734058703687E-10 -0.00874897391985102" rpy="0 0 0" />
+      <mass value="0.145682689167449" />
+      <inertia ixx="6.14764447590748E-05" ixy="0" ixz="0" iyy="6.14766173417653E-05" iyz="0"  izz="0.000100247382097953" />
+    </inertial>
+    <visual>
+      <geometry><mesh filename="package://my_robot_description/meshes/wheel_x1.STL" /></geometry>
+      <material name="black"><color rgba="0 0 0 1" /></material>
+    </visual>
+    <collision>
+      <geometry><mesh filename="package://my_robot_description/meshes/wheel_x1.STL" /></geometry>
+    </collision>
+  </link>
+  <joint name="wheel_x1_joint" type="continuous">
+    <origin xyz="0.286336801450734 0.206862497258585 0.0110426040425946" rpy="1.5707963267949 0 1.55973065978089" />
+    <parent link="base_link" />
+    <child link="wheel_x1" />
+    <axis xyz="0 0 -1" />
+  </joint>
+
+  <link name="wheel_x2">
+    <inertial>
+      <origin xyz="1.35244830499689E-08 -3.41555179139696E-08 -0.00874897392029084" rpy="0 0 0" />
+      <mass value="0.14568268916745" />
+      <inertia ixx="6.14765911175573E-05" ixy="0" ixz="0" iyy="6.14764709833191E-05" iyz="0"  izz="0.00010024738209795" />
+    </inertial>
+    <visual>
+      <geometry><mesh filename="package://my_robot_description/meshes/wheel_x2.STL" /></geometry>
+      <material name="black"><color rgba="0 0 0 1" /></material>
+    </visual>
+    <collision>
+      <geometry><mesh filename="package://my_robot_description/meshes/wheel_x2.STL" /></geometry>
+    </collision>
+  </link>
+  <joint name="wheel_x2_joint" type="continuous">
+    <origin xyz="-0.20861 0.25319 0.010751" rpy="1.5708 0 -3.1416" />
+    <parent link="base_link" />
+    <child link="wheel_x2" />
+    <axis xyz="0 0 -1" />
+  </joint>
+
+  <link name="wheel_x3">
+    <inertial>
+      <origin xyz="-3.6307554620793E-08 5.26337012862754E-09 -0.00874897392029572" rpy="0 0 0" />
+      <mass value="0.14568268916745" />
+      <inertia ixx="6.14764469202833E-05" ixy="0" ixz="0" iyy="6.14766151805928E-05" iyz="0"  izz="0.00010024738209795" />
+    </inertial>
+    <visual>
+      <geometry><mesh filename="package://my_robot_description/meshes/wheel_x3.STL" /></geometry>
+      <material name="black"><color rgba="0 0 0 1" /></material>
+    </visual>
+    <collision>
+      <geometry><mesh filename="package://my_robot_description/meshes/wheel_x3.STL" /></geometry>
+    </collision>
+  </link>
+  <joint name="wheel_x3_joint" type="continuous">
+    <origin xyz="-0.208979635066533 -0.259961604462728 0.0143112535293748" rpy="1.5707963267949 0 0" />
+    <parent link="base_link" />
+    <child link="wheel_x3" />
+    <axis xyz="0 0 -1" />
+  </joint>
+
+  <link name="wheel_x4">
+    <inertial>
+      <origin xyz="-3.65470383956179E-08 -3.72243552648754E-09 -0.00874897392030649" rpy="0 0 0" />
+      <mass value="0.14568268916745" />
+      <inertia ixx="6.14764473265252E-05" ixy="0" ixz="0" iyy="6.14766147743595E-05" iyz="0" izz="0.000100247382097958" />
+    </inertial>
+    <visual>
+      <geometry><mesh filename="package://my_robot_description/meshes/wheel_x4.STL" /></geometry>
+      <material name="black"><color rgba="0 0 0 1" /></material>
+    </visual>
+    <collision>
+      <geometry><mesh filename="package://my_robot_description/meshes/wheel_x4.STL" /></geometry>
+    </collision>
+  </link>
+  <joint name="wheel_x4_joint" type="continuous">
+    <origin xyz="0.192090468780543 -0.259850537618105 0.00968898363599036" rpy="1.5707963267949 0 0" />
+    <parent link="base_link" />
+    <child link="wheel_x4" />
+    <axis xyz="0 0 -1" />
+  </joint>
+
+  <link name="wheel_y1">
+    <inertial>
+      <origin xyz="-3.23597054152636E-08 -1.73261524016866E-08 -0.00874897392031299" rpy="0 0 0" />
+      <mass value="0.145682689167449" />
+      <inertia ixx="6.14764866997196E-05" ixy="0" ixz="0" iyy="6.14765754011661E-05" iyz="0"  izz="0.000100247382097959" />
+    </inertial>
+    <visual>
+      <geometry><mesh filename="package://my_robot_description/meshes/wheel_y1.STL" /></geometry>
+      <material name="black"><color rgba="0 0 0 1" /></material>
+    </visual>
+    <collision>
+      <geometry><mesh filename="package://my_robot_description/meshes/wheel_y1.STL" /></geometry>
+    </collision>
+  </link>
+  <joint name="wheel_y1_joint" type="continuous">
+    <origin xyz="0.19209 0.25319 0.010055" rpy="1.5708 0 -3.1416" />
+    <parent link="base_link" />
+    <child link="wheel_y1" />
+    <axis xyz="0 0 -1" />
+  </joint>
+
+  <link name="wheel_y2">
+    <inertial>
+      <origin xyz="2.52343341222705E-08 -2.66526073433582E-08 -0.00874897392033247" rpy="0 0 0" />
+      <mass value="0.145682689167449" />
+      <inertia ixx="6.1476531215261E-05" ixy="0"  ixz="0" iyy="6.14765308856174E-05" iyz="0"  izz="0.000100247382097952" />
+    </inertial>
+    <visual>
+      <geometry><mesh filename="package://my_robot_description/meshes/wheel_y2.STL" /></geometry>
+      <material name="black"><color rgba="0 0 0 1" /></material>
+    </visual>
+    <collision>
+      <geometry><mesh filename="package://my_robot_description/meshes/wheel_y2.STL" /></geometry>
+    </collision>
+  </link>
+  <joint name="wheel_y2_joint" type="continuous">
+    <origin xyz="-0.30223 0.20756 0.010411" rpy="1.5708 0 -1.5708" />
+    <parent link="base_link" />
+    <child link="wheel_y2" />
+    <axis xyz="0 0 -1" />
+  </joint>
+
+  <link name="wheel_y3">
+    <inertial>
+      <origin xyz="-3.61390528613725E-08 6.32197527661305E-09 -0.00874897392028827" rpy="0 0 0" />
+      <mass value="0.14568268916745" />
+      <inertia ixx="6.14764482592896E-05" ixy="0" ixz="0" iyy="6.14766138415908E-05" iyz="0" izz="0.000100247382097954" />
+    </inertial>
+    <visual>
+      <geometry><mesh filename="package://my_robot_description/meshes/wheel_y3.STL" /></geometry>
+      <material name="black"><color rgba="0 0 0 1" /></material>
+    </visual>
+    <collision>
+      <geometry><mesh filename="package://my_robot_description/meshes/wheel_y3.STL" /></geometry>
+    </collision>
+  </link>
+  <joint name="wheel_y3_joint" type="continuous">
+    <origin xyz="-0.301604635066533 -0.214336604462728 0.0143112535293748" rpy="1.5707963267949 0 -1.5707963267949" />
+    <parent link="base_link" />
+    <child link="wheel_y3" />
+    <axis xyz="0 0 -1" />
+  </joint>
+
+  <link name="wheel_y4">
+    <inertial>
+      <origin xyz="-3.54429363635944E-08 -9.72513708452638E-09 -0.00874897392031282" rpy="0 0 0" />
+      <mass value="0.14568268916745" />
+      <inertia ixx="6.1476458966682E-05" ixy="0"  ixz="0" iyy="6.14766031342023E-05" iyz="0"  izz="0.000100247382097958" />
+    </inertial>
+    <visual>
+      <geometry><mesh filename="package://my_robot_description/meshes/wheel_y4.STL" /></geometry>
+      <material name="black"><color rgba="0 0 0 1" /></material>
+    </visual>
+    <collision>
+      <geometry><mesh filename="package://my_robot_description/meshes/wheel_y4.STL" /></geometry>
+    </collision>
+  </link>
+  <joint name="wheel_y4_joint" type="continuous">
+    <origin xyz="0.287645364932471 -0.214336604463216 0.0112942202850847" rpy="1.5707963267949 0 1.5707963267949" />
+    <parent link="base_link" />
+    <child link="wheel_y4" />
+    <axis xyz="0 0 -1" />
+  </joint>
+
+  <gazebo reference="wheel_x1">
+  <material>Gazebo/Black</material>
+  <mu1>1.0</mu1>    <!-- grip in drive direction -->
+  <mu2>0.01</mu2>   <!-- free slide perpendicular -->
+  <kp>1000000.0</kp>
+  <kd>1.0</kd>
+</gazebo>
+<gazebo reference="wheel_x2">
+  <material>Gazebo/Black</material>
+  <mu1>1.0</mu1>    <!-- grip in drive direction -->
+  <mu2>0.01</mu2>   <!-- free slide perpendicular -->
+  <kp>1000000.0</kp>
+  <kd>1.0</kd>
+</gazebo>
+<gazebo reference="wheel_x3">
+  <material>Gazebo/Black</material>
+  <mu1>1.0</mu1>    <!-- grip in drive direction -->
+  <mu2>0.01</mu2>   <!-- free slide perpendicular -->
+  <kp>1000000.0</kp>
+  <kd>1.0</kd>
+</gazebo>
+<gazebo reference="wheel_x4">
+  <material>Gazebo/Black</material>
+  <mu1>1.0</mu1>    <!-- grip in drive direction -->
+  <mu2>0.01</mu2>   <!-- free slide perpendicular -->
+  <kp>1000000.0</kp>
+  <kd>1.0</kd>
+</gazebo>
+<!-- Y-axis wheels: roll along Y, slide freely in X -->
+<gazebo reference="wheel_y1">
+  <material>Gazebo/Black</material>
+  <mu1>0.01</mu1>   <!-- slide freely in non-drive direction -->
+  <mu2>1.0</mu2>    <!-- grip in drive direction -->
+  <kp>1000000.0</kp>
+  <kd>1.0</kd>
+</gazebo>
+<gazebo reference="wheel_y2">
+  <material>Gazebo/Black</material>
+  <mu1>0.01</mu1>   <!-- slide freely in non-drive direction -->
+  <mu2>1.0</mu2>    <!-- grip in drive direction -->
+  <kp>1000000.0</kp>
+  <kd>1.0</kd>
+</gazebo>
+<gazebo reference="wheel_y3">
+  <material>Gazebo/Black</material>
+  <mu1>0.01</mu1>   <!-- slide freely in non-drive direction -->
+  <mu2>1.0</mu2>    <!-- grip in drive direction -->
+  <kp>1000000.0</kp>
+  <kd>1.0</kd>
+</gazebo>
+<gazebo reference="wheel_y4">
+  <material>Gazebo/Black</material>
+  <mu1>0.01</mu1>   <!-- slide freely in non-drive direction -->
+  <mu2>1.0</mu2>    <!-- grip in drive direction -->
+  <kp>1000000.0</kp>
+  <kd>1.0</kd>
+</gazebo>
+
+<ros2_control name="GazeboSystem" type="system">
+  <hardware>
+    <plugin>gz_ros2_control/GazeboSimSystem</plugin>
+  </hardware>
+  <joint name="wheel_x1_joint">
+    <command_interface name="velocity"/>
+    <state_interface name="position"/>   <!-- ADD THIS -->
+    <state_interface name="velocity"/>
+  </joint>
+  <joint name="wheel_x2_joint">
+    <command_interface name="velocity"/>
+    <state_interface name="position"/>   <!-- ADD THIS -->
+    <state_interface name="velocity"/>
+  </joint>
+  <joint name="wheel_x3_joint">
+    <command_interface name="velocity"/>
+    <state_interface name="position"/>   <!-- ADD THIS -->
+    <state_interface name="velocity"/>
+  </joint>
+
+  <joint name="wheel_x4_joint">
+    <command_interface name="velocity"/>
+    <state_interface name="position"/>   <!-- ADD THIS -->
+    <state_interface name="velocity"/>
+  </joint>
+  <joint name="wheel_y1_joint">
+    <command_interface name="velocity"/>
+    <state_interface name="position"/>   <!-- ADD THIS -->
+    <state_interface name="velocity"/>
+  </joint>
+  <joint name="wheel_y2_joint">
+    <command_interface name="velocity"/>
+    <state_interface name="position"/>   <!-- ADD THIS -->
+    <state_interface name="velocity"/>
+  </joint>
+  <joint name="wheel_y3_joint">
+    <command_interface name="velocity"/>
+    <state_interface name="position"/>   <!-- ADD THIS -->
+    <state_interface name="velocity"/>
+  </joint>
+  <joint name="wheel_y4_joint">
+    <command_interface name="velocity"/>
+    <state_interface name="position"/>   <!-- ADD THIS -->
+    <state_interface name="velocity"/>
+  </joint>
+  
+</ros2_control>
+<gazebo>
+  <plugin filename="gz_ros2_control-system" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+  <parameters>/home/amira/test_urdf_gazebo/install/my_robot_description/share/my_robot_description/config/controllers.yaml</parameters>
+</plugin>
+</gazebo>
+</robot>
