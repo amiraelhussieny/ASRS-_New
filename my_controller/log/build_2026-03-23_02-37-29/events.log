@@ -1,0 +1,200 @@
+[0.000000] (-) TimerEvent: {}
+[0.000353] (my_controller) JobQueued: {'identifier': 'my_controller', 'dependencies': OrderedDict()}
+[0.003292] (my_controller) JobStarted: {'identifier': 'my_controller'}
+[0.099777] (-) TimerEvent: {}
+[0.200060] (-) TimerEvent: {}
+[0.300339] (-) TimerEvent: {}
+[0.401696] (-) TimerEvent: {}
+[0.502032] (-) TimerEvent: {}
+[0.602295] (-) TimerEvent: {}
+[0.702553] (-) TimerEvent: {}
+[0.802877] (-) TimerEvent: {}
+[0.903325] (-) TimerEvent: {}
+[1.003823] (-) TimerEvent: {}
+[1.104118] (-) TimerEvent: {}
+[1.204409] (-) TimerEvent: {}
+[1.304708] (-) TimerEvent: {}
+[1.405009] (-) TimerEvent: {}
+[1.505533] (-) TimerEvent: {}
+[1.605931] (-) TimerEvent: {}
+[1.706232] (-) TimerEvent: {}
+[1.806655] (-) TimerEvent: {}
+[1.907019] (-) TimerEvent: {}
+[2.007341] (-) TimerEvent: {}
+[2.107720] (-) TimerEvent: {}
+[2.208841] (-) TimerEvent: {}
+[2.309179] (-) TimerEvent: {}
+[2.409590] (-) TimerEvent: {}
+[2.509934] (-) TimerEvent: {}
+[2.610270] (-) TimerEvent: {}
+[2.710939] (-) TimerEvent: {}
+[2.811247] (-) TimerEvent: {}
+[2.911548] (-) TimerEvent: {}
+[3.011880] (-) TimerEvent: {}
+[3.112241] (-) TimerEvent: {}
+[3.212556] (-) TimerEvent: {}
+[3.312867] (-) TimerEvent: {}
+[3.414021] (-) TimerEvent: {}
+[3.514431] (-) TimerEvent: {}
+[3.615003] (-) TimerEvent: {}
+[3.715559] (-) TimerEvent: {}
+[3.816018] (-) TimerEvent: {}
+[3.916447] (-) TimerEvent: {}
+[4.016773] (-) TimerEvent: {}
+[4.117093] (-) TimerEvent: {}
+[4.217397] (-) TimerEvent: {}
+[4.317680] (-) TimerEvent: {}
+[4.418054] (-) TimerEvent: {}
+[4.518632] (-) TimerEvent: {}
+[4.619305] (-) TimerEvent: {}
+[4.719675] (-) TimerEvent: {}
+[4.820232] (-) TimerEvent: {}
+[4.920851] (-) TimerEvent: {}
+[5.021415] (-) TimerEvent: {}
+[5.122014] (-) TimerEvent: {}
+[5.222651] (-) TimerEvent: {}
+[5.323005] (-) TimerEvent: {}
+[5.423355] (-) TimerEvent: {}
+[5.523942] (-) TimerEvent: {}
+[5.624477] (-) TimerEvent: {}
+[5.727576] (-) TimerEvent: {}
+[5.828001] (-) TimerEvent: {}
+[5.928626] (-) TimerEvent: {}
+[6.028910] (-) TimerEvent: {}
+[6.129219] (-) TimerEvent: {}
+[6.229552] (-) TimerEvent: {}
+[6.329888] (-) TimerEvent: {}
+[6.430178] (-) TimerEvent: {}
+[6.530724] (-) TimerEvent: {}
+[6.632120] (-) TimerEvent: {}
+[6.732444] (-) TimerEvent: {}
+[6.832769] (-) TimerEvent: {}
+[6.933299] (-) TimerEvent: {}
+[7.033652] (-) TimerEvent: {}
+[7.133946] (-) TimerEvent: {}
+[7.234383] (-) TimerEvent: {}
+[7.335156] (-) TimerEvent: {}
+[7.435553] (-) TimerEvent: {}
+[7.535924] (-) TimerEvent: {}
+[7.636217] (-) TimerEvent: {}
+[7.736523] (-) TimerEvent: {}
+[7.836840] (-) TimerEvent: {}
+[7.937258] (-) TimerEvent: {}
+[8.037632] (-) TimerEvent: {}
+[8.138163] (-) TimerEvent: {}
+[8.238478] (-) TimerEvent: {}
+[8.338816] (-) TimerEvent: {}
+[8.439158] (-) TimerEvent: {}
+[8.539515] (-) TimerEvent: {}
+[8.639854] (-) TimerEvent: {}
+[8.740244] (-) TimerEvent: {}
+[8.840687] (-) TimerEvent: {}
+[8.941079] (-) TimerEvent: {}
+[9.041525] (-) TimerEvent: {}
+[9.142033] (-) TimerEvent: {}
+[9.242348] (-) TimerEvent: {}
+[9.342710] (-) TimerEvent: {}
+[9.443322] (-) TimerEvent: {}
+[9.543696] (-) TimerEvent: {}
+[9.643996] (-) TimerEvent: {}
+[9.744322] (-) TimerEvent: {}
+[9.844646] (-) TimerEvent: {}
+[9.944989] (-) TimerEvent: {}
+[10.045280] (-) TimerEvent: {}
+[10.145853] (-) TimerEvent: {}
+[10.246326] (-) TimerEvent: {}
+[10.346708] (-) TimerEvent: {}
+[10.447134] (-) TimerEvent: {}
+[10.547466] (-) TimerEvent: {}
+[10.647833] (-) TimerEvent: {}
+[10.748134] (-) TimerEvent: {}
+[10.849055] (-) TimerEvent: {}
+[10.949625] (-) TimerEvent: {}
+[11.050119] (-) TimerEvent: {}
+[11.150577] (-) TimerEvent: {}
+[11.250924] (-) TimerEvent: {}
+[11.351432] (-) TimerEvent: {}
+[11.451915] (-) TimerEvent: {}
+[11.552246] (-) TimerEvent: {}
+[11.652777] (-) TimerEvent: {}
+[11.753216] (-) TimerEvent: {}
+[11.853767] (-) TimerEvent: {}
+[11.954221] (-) TimerEvent: {}
+[12.054546] (-) TimerEvent: {}
+[12.154914] (-) TimerEvent: {}
+[12.255197] (-) TimerEvent: {}
+[12.355668] (-) TimerEvent: {}
+[12.456227] (-) TimerEvent: {}
+[12.556668] (-) TimerEvent: {}
+[12.656974] (-) TimerEvent: {}
+[12.757364] (-) TimerEvent: {}
+[12.857828] (-) TimerEvent: {}
+[12.958108] (-) TimerEvent: {}
+[13.058715] (-) TimerEvent: {}
+[13.159161] (-) TimerEvent: {}
+[13.259478] (-) TimerEvent: {}
+[13.359807] (-) TimerEvent: {}
+[13.460129] (-) TimerEvent: {}
+[13.560489] (-) TimerEvent: {}
+[13.660941] (-) TimerEvent: {}
+[13.761250] (-) TimerEvent: {}
+[13.861608] (-) TimerEvent: {}
+[13.961978] (-) TimerEvent: {}
+[14.062470] (-) TimerEvent: {}
+[14.163830] (-) TimerEvent: {}
+[14.264269] (-) TimerEvent: {}
+[14.364576] (-) TimerEvent: {}
+[14.465000] (-) TimerEvent: {}
+[14.565688] (-) TimerEvent: {}
+[14.666399] (-) TimerEvent: {}
+[14.766762] (-) TimerEvent: {}
+[14.867107] (-) TimerEvent: {}
+[14.967562] (-) TimerEvent: {}
+[15.067911] (-) TimerEvent: {}
+[15.168183] (-) TimerEvent: {}
+[15.268753] (-) TimerEvent: {}
+[15.369328] (-) TimerEvent: {}
+[15.469646] (-) TimerEvent: {}
+[15.570178] (-) TimerEvent: {}
+[15.670459] (-) TimerEvent: {}
+[15.770936] (-) TimerEvent: {}
+[15.871312] (-) TimerEvent: {}
+[15.971555] (-) TimerEvent: {}
+[16.071841] (-) TimerEvent: {}
+[16.172126] (-) TimerEvent: {}
+[16.272527] (-) TimerEvent: {}
+[16.327481] (my_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/my_controller', 'build', '--build-base', '/home/amira/test_urdf_gazebo/src/my_controller/build/my_controller/build', 'install', '--record', '/home/amira/test_urdf_gazebo/src/my_controller/build/my_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/amira/test_urdf_gazebo/src/my_controller', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2319-3-amira_TIME2592758', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share:/home/amira/ros2_ws/install/ros_shuttle/share', 'USER': 'amira', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/amira', 'OLDPWD': '/home/amira/test_urdf_gazebo/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2044', 'SYSTEMD_EXEC_PID': '2319', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '8522', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/amira/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'amira', 'JOURNAL_STREAM': '9:16217', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'amira', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/amira:@/tmp/.ICE-unix/2286,unix/amira:/tmp/.ICE-unix/2286', 'INVOCATION_ID': '01dcabc88c1745ec84ffcde6e36cddd8', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.T2VTM3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/amira/ros2_ws/install/ros_shuttle:/home/amira/ros2_ws/install/my_py_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:0e152f94-7dbb-475b-a109-891d78617e8d', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/amira/test_urdf_gazebo/src/my_controller/build/my_controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/amira/test_urdf_gazebo/src/my_controller/build/my_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amira/test_urdf_gazebo/src/my_controller/install/my_controller/lib/python3.12/site-packages:/home/amira/ros2_ws/build/my_py_pkg:/home/amira/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/amira/ros2_ws/install/ros_shuttle:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[16.372635] (-) TimerEvent: {}
+[16.472870] (-) TimerEvent: {}
+[16.573109] (-) TimerEvent: {}
+[16.673394] (-) TimerEvent: {}
+[16.773753] (-) TimerEvent: {}
+[16.847847] (my_controller) StdoutLine: {'line': b'running egg_info\n'}
+[16.873851] (-) TimerEvent: {}
+[16.885859] (my_controller) StdoutLine: {'line': b'writing build/my_controller/my_controller.egg-info/PKG-INFO\n'}
+[16.886361] (my_controller) StdoutLine: {'line': b'writing dependency_links to build/my_controller/my_controller.egg-info/dependency_links.txt\n'}
+[16.886636] (my_controller) StdoutLine: {'line': b'writing requirements to build/my_controller/my_controller.egg-info/requires.txt\n'}
+[16.886830] (my_controller) StdoutLine: {'line': b'writing top-level names to build/my_controller/my_controller.egg-info/top_level.txt\n'}
+[16.966291] (my_controller) StdoutLine: {'line': b"reading manifest file 'build/my_controller/my_controller.egg-info/SOURCES.txt'\n"}
+[16.973981] (-) TimerEvent: {}
+[17.002706] (my_controller) StdoutLine: {'line': b"writing manifest file 'build/my_controller/my_controller.egg-info/SOURCES.txt'\n"}
+[17.004081] (my_controller) StdoutLine: {'line': b'running build\n'}
+[17.004255] (my_controller) StdoutLine: {'line': b'running build_py\n'}
+[17.004426] (my_controller) StdoutLine: {'line': b'running install\n'}
+[17.015267] (my_controller) StdoutLine: {'line': b'running install_lib\n'}
+[17.054937] (my_controller) StdoutLine: {'line': b'running install_data\n'}
+[17.055884] (my_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[17.074085] (-) TimerEvent: {}
+[17.096247] (my_controller) StdoutLine: {'line': b"removing '/home/amira/test_urdf_gazebo/src/my_controller/install/my_controller/lib/python3.12/site-packages/my_controller-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[17.096761] (my_controller) StdoutLine: {'line': b'Copying build/my_controller/my_controller.egg-info to /home/amira/test_urdf_gazebo/src/my_controller/install/my_controller/lib/python3.12/site-packages/my_controller-0.0.0-py3.12.egg-info\n'}
+[17.098625] (my_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[17.174171] (-) TimerEvent: {}
+[17.274481] (-) TimerEvent: {}
+[17.338295] (my_controller) StdoutLine: {'line': b"writing list of installed files to '/home/amira/test_urdf_gazebo/src/my_controller/build/my_controller/install.log'\n"}
+[17.374578] (-) TimerEvent: {}
+[17.392543] (my_controller) CommandEnded: {'returncode': 0}
+[17.474704] (-) TimerEvent: {}
+[17.575348] (-) TimerEvent: {}
+[17.677226] (-) TimerEvent: {}
+[17.764348] (my_controller) JobEnded: {'identifier': 'my_controller', 'rc': 0}
+[17.765613] (-) EventReactorShutdown: {}

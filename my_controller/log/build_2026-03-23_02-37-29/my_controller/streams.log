@@ -1,0 +1,19 @@
+[16.326s] Invoking command in '/home/amira/test_urdf_gazebo/src/my_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amira/test_urdf_gazebo/src/my_controller/build/my_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amira/test_urdf_gazebo/src/my_controller/install/my_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/my_controller build --build-base /home/amira/test_urdf_gazebo/src/my_controller/build/my_controller/build install --record /home/amira/test_urdf_gazebo/src/my_controller/build/my_controller/install.log --single-version-externally-managed install_data
+[16.845s] running egg_info
+[16.883s] writing build/my_controller/my_controller.egg-info/PKG-INFO
+[16.883s] writing dependency_links to build/my_controller/my_controller.egg-info/dependency_links.txt
+[16.883s] writing requirements to build/my_controller/my_controller.egg-info/requires.txt
+[16.884s] writing top-level names to build/my_controller/my_controller.egg-info/top_level.txt
+[16.963s] reading manifest file 'build/my_controller/my_controller.egg-info/SOURCES.txt'
+[16.999s] writing manifest file 'build/my_controller/my_controller.egg-info/SOURCES.txt'
+[17.001s] running build
+[17.001s] running build_py
+[17.001s] running install
+[17.012s] running install_lib
+[17.052s] running install_data
+[17.053s] running install_egg_info
+[17.093s] removing '/home/amira/test_urdf_gazebo/src/my_controller/install/my_controller/lib/python3.12/site-packages/my_controller-0.0.0-py3.12.egg-info' (and everything under it)
+[17.093s] Copying build/my_controller/my_controller.egg-info to /home/amira/test_urdf_gazebo/src/my_controller/install/my_controller/lib/python3.12/site-packages/my_controller-0.0.0-py3.12.egg-info
+[17.095s] running install_scripts
+[17.335s] writing list of installed files to '/home/amira/test_urdf_gazebo/src/my_controller/build/my_controller/install.log'
+[17.389s] Invoked command in '/home/amira/test_urdf_gazebo/src/my_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amira/test_urdf_gazebo/src/my_controller/build/my_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amira/test_urdf_gazebo/src/my_controller/install/my_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/my_controller build --build-base /home/amira/test_urdf_gazebo/src/my_controller/build/my_controller/build install --record /home/amira/test_urdf_gazebo/src/my_controller/build/my_controller/install.log --single-version-externally-managed install_data

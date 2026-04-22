@@ -1,0 +1,103 @@
+[0.000000] (-) TimerEvent: {}
+[0.001324] (my_controller) JobQueued: {'identifier': 'my_controller', 'dependencies': OrderedDict()}
+[0.001512] (my_controller) JobStarted: {'identifier': 'my_controller'}
+[0.099740] (-) TimerEvent: {}
+[0.200098] (-) TimerEvent: {}
+[0.300367] (-) TimerEvent: {}
+[0.400645] (-) TimerEvent: {}
+[0.500900] (-) TimerEvent: {}
+[0.601202] (-) TimerEvent: {}
+[0.701463] (-) TimerEvent: {}
+[0.801734] (-) TimerEvent: {}
+[0.902030] (-) TimerEvent: {}
+[1.002434] (-) TimerEvent: {}
+[1.103032] (-) TimerEvent: {}
+[1.203427] (-) TimerEvent: {}
+[1.303969] (-) TimerEvent: {}
+[1.404466] (-) TimerEvent: {}
+[1.504803] (-) TimerEvent: {}
+[1.605413] (-) TimerEvent: {}
+[1.706021] (-) TimerEvent: {}
+[1.806627] (-) TimerEvent: {}
+[1.907236] (-) TimerEvent: {}
+[2.007846] (-) TimerEvent: {}
+[2.108472] (-) TimerEvent: {}
+[2.209057] (-) TimerEvent: {}
+[2.309721] (-) TimerEvent: {}
+[2.410262] (-) TimerEvent: {}
+[2.510652] (-) TimerEvent: {}
+[2.611259] (-) TimerEvent: {}
+[2.711860] (-) TimerEvent: {}
+[2.812384] (-) TimerEvent: {}
+[2.912705] (-) TimerEvent: {}
+[3.013282] (-) TimerEvent: {}
+[3.113873] (-) TimerEvent: {}
+[3.214523] (-) TimerEvent: {}
+[3.315198] (-) TimerEvent: {}
+[3.415789] (-) TimerEvent: {}
+[3.516557] (-) TimerEvent: {}
+[3.617144] (-) TimerEvent: {}
+[3.717797] (-) TimerEvent: {}
+[3.818403] (-) TimerEvent: {}
+[3.919011] (-) TimerEvent: {}
+[4.019514] (-) TimerEvent: {}
+[4.120083] (-) TimerEvent: {}
+[4.220651] (-) TimerEvent: {}
+[4.321342] (-) TimerEvent: {}
+[4.422088] (-) TimerEvent: {}
+[4.522620] (-) TimerEvent: {}
+[4.623251] (-) TimerEvent: {}
+[4.723814] (-) TimerEvent: {}
+[4.824094] (-) TimerEvent: {}
+[4.924405] (-) TimerEvent: {}
+[5.024897] (-) TimerEvent: {}
+[5.125259] (-) TimerEvent: {}
+[5.225751] (-) TimerEvent: {}
+[5.326011] (-) TimerEvent: {}
+[5.426245] (-) TimerEvent: {}
+[5.526500] (-) TimerEvent: {}
+[5.626859] (-) TimerEvent: {}
+[5.727423] (-) TimerEvent: {}
+[5.756428] (my_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/my_controller', 'build', '--build-base', '/home/amira/test_urdf_gazebo/src/my_controller/build/my_controller/build', 'install', '--record', '/home/amira/test_urdf_gazebo/src/my_controller/build/my_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/amira/test_urdf_gazebo/src/my_controller', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2319-2-amira_TIME2023204', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share:/home/amira/ros2_ws/install/ros_shuttle/share', 'USER': 'amira', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/amira', 'OLDPWD': '/home/amira/test_urdf_gazebo/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2044', 'SYSTEMD_EXEC_PID': '2319', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '7994', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/amira/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'amira', 'JOURNAL_STREAM': '9:16217', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'amira', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/amira:@/tmp/.ICE-unix/2286,unix/amira:/tmp/.ICE-unix/2286', 'INVOCATION_ID': '01dcabc88c1745ec84ffcde6e36cddd8', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.T2VTM3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/amira/ros2_ws/install/ros_shuttle:/home/amira/ros2_ws/install/my_py_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:0f6405a2-c405-4296-bac1-019f4b15a09e', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/amira/test_urdf_gazebo/src/my_controller/build/my_controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/amira/test_urdf_gazebo/src/my_controller/build/my_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amira/test_urdf_gazebo/src/my_controller/install/my_controller/lib/python3.12/site-packages:/home/amira/ros2_ws/build/my_py_pkg:/home/amira/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/amira/ros2_ws/install/ros_shuttle:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[5.827519] (-) TimerEvent: {}
+[5.927804] (-) TimerEvent: {}
+[6.028113] (-) TimerEvent: {}
+[6.128400] (-) TimerEvent: {}
+[6.167795] (my_controller) StdoutLine: {'line': b'running egg_info\n'}
+[6.168399] (my_controller) StdoutLine: {'line': b'creating build/my_controller/my_controller.egg-info\n'}
+[6.199694] (my_controller) StdoutLine: {'line': b'writing build/my_controller/my_controller.egg-info/PKG-INFO\n'}
+[6.200129] (my_controller) StdoutLine: {'line': b'writing dependency_links to build/my_controller/my_controller.egg-info/dependency_links.txt\n'}
+[6.200449] (my_controller) StdoutLine: {'line': b'writing requirements to build/my_controller/my_controller.egg-info/requires.txt\n'}
+[6.200729] (my_controller) StdoutLine: {'line': b'writing top-level names to build/my_controller/my_controller.egg-info/top_level.txt\n'}
+[6.200977] (my_controller) StdoutLine: {'line': b"writing manifest file 'build/my_controller/my_controller.egg-info/SOURCES.txt'\n"}
+[6.228490] (-) TimerEvent: {}
+[6.267856] (my_controller) StdoutLine: {'line': b"reading manifest file 'build/my_controller/my_controller.egg-info/SOURCES.txt'\n"}
+[6.268770] (my_controller) StdoutLine: {'line': b"writing manifest file 'build/my_controller/my_controller.egg-info/SOURCES.txt'\n"}
+[6.269066] (my_controller) StdoutLine: {'line': b'running build\n'}
+[6.269291] (my_controller) StdoutLine: {'line': b'running build_py\n'}
+[6.269512] (my_controller) StdoutLine: {'line': b'creating /home/amira/test_urdf_gazebo/src/my_controller/build/my_controller/build\n'}
+[6.269764] (my_controller) StdoutLine: {'line': b'creating /home/amira/test_urdf_gazebo/src/my_controller/build/my_controller/build/lib\n'}
+[6.269891] (my_controller) StdoutLine: {'line': b'creating /home/amira/test_urdf_gazebo/src/my_controller/build/my_controller/build/lib/my_controller\n'}
+[6.270030] (my_controller) StdoutLine: {'line': b'copying my_controller/__init__.py -> /home/amira/test_urdf_gazebo/src/my_controller/build/my_controller/build/lib/my_controller\n'}
+[6.270185] (my_controller) StdoutLine: {'line': b'running install\n'}
+[6.278866] (my_controller) StdoutLine: {'line': b'running install_lib\n'}
+[6.311414] (my_controller) StdoutLine: {'line': b'creating /home/amira/test_urdf_gazebo/src/my_controller/install/my_controller/lib/python3.12/site-packages/my_controller\n'}
+[6.311692] (my_controller) StdoutLine: {'line': b'copying /home/amira/test_urdf_gazebo/src/my_controller/build/my_controller/build/lib/my_controller/__init__.py -> /home/amira/test_urdf_gazebo/src/my_controller/install/my_controller/lib/python3.12/site-packages/my_controller\n'}
+[6.312276] (my_controller) StdoutLine: {'line': b'byte-compiling /home/amira/test_urdf_gazebo/src/my_controller/install/my_controller/lib/python3.12/site-packages/my_controller/__init__.py to __init__.cpython-312.pyc\n'}
+[6.312543] (my_controller) StdoutLine: {'line': b'running install_data\n'}
+[6.312718] (my_controller) StdoutLine: {'line': b'creating /home/amira/test_urdf_gazebo/src/my_controller/install/my_controller/share/ament_index\n'}
+[6.312890] (my_controller) StdoutLine: {'line': b'creating /home/amira/test_urdf_gazebo/src/my_controller/install/my_controller/share/ament_index/resource_index\n'}
+[6.313073] (my_controller) StdoutLine: {'line': b'creating /home/amira/test_urdf_gazebo/src/my_controller/install/my_controller/share/ament_index/resource_index/packages\n'}
+[6.313199] (my_controller) StdoutLine: {'line': b'copying resource/my_controller -> /home/amira/test_urdf_gazebo/src/my_controller/install/my_controller/share/ament_index/resource_index/packages\n'}
+[6.313367] (my_controller) StdoutLine: {'line': b'copying package.xml -> /home/amira/test_urdf_gazebo/src/my_controller/install/my_controller/share/my_controller\n'}
+[6.313527] (my_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.328586] (-) TimerEvent: {}
+[6.347934] (my_controller) StdoutLine: {'line': b'Copying build/my_controller/my_controller.egg-info to /home/amira/test_urdf_gazebo/src/my_controller/install/my_controller/lib/python3.12/site-packages/my_controller-0.0.0-py3.12.egg-info\n'}
+[6.349064] (my_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[6.428691] (-) TimerEvent: {}
+[6.528945] (-) TimerEvent: {}
+[6.562499] (my_controller) StdoutLine: {'line': b"writing list of installed files to '/home/amira/test_urdf_gazebo/src/my_controller/build/my_controller/install.log'\n"}
+[6.602556] (my_controller) CommandEnded: {'returncode': 0}
+[6.629544] (-) TimerEvent: {}
+[6.690072] (my_controller) JobEnded: {'identifier': 'my_controller', 'rc': 0}
+[6.693979] (-) EventReactorShutdown: {}
