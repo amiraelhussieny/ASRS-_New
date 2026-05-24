@@ -6,11 +6,18 @@ from launch_ros.actions import Node
 from ament_index_python.packages import get_package_share_directory
 import xacro
 
+import shutil
+
 def generate_launch_description():
 
     pkg = get_package_share_directory('my_robot_description')
     xacro_file = os.path.join(pkg, 'urdf', 'ros_shuttle.urdf.xacro')
     robot_description = xacro.process_file(xacro_file).toxml()
+
+    # Automatically copy controllers.yaml to a path without "robot_description"
+    src_yaml = os.path.join(pkg, 'config', 'controllers.yaml')
+    dst_yaml = '/tmp/my_controllers.yaml'
+    shutil.copyfile(src_yaml, dst_yaml)
 
     return LaunchDescription([
 
@@ -50,6 +57,22 @@ def generate_launch_description():
             arguments=['-topic', 'robot_description',
                        '-name', 'ros_shuttle',
                        '-z', '0.05'],
+            output='screen'
+        ),
+
+        # --- ADDED: Spawner for Joint State Broadcaster ---
+        Node(
+            package='controller_manager',
+            executable='spawner',
+            arguments=['joint_state_broadcaster'],
+            output='screen'
+        ),
+
+        # --- ADDED: Spawner for Wheel Velocity Controller ---
+        Node(
+            package='controller_manager',
+            executable='spawner',
+            arguments=['wheel_velocity_controller'],
             output='screen'
         ),
 
